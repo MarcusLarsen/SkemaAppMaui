@@ -8,9 +8,9 @@
 
             string webUrl;
         #if ANDROID
-            webUrl = "https://192.168.1.129:5173/";  // Use 10.0.2.2 for Android emulator
+            webUrl = "http://10.0.2.2:5173/";  // Use 10.0.2.2 for Android emulator
         #else
-            webUrl = "https://localhost:5173/";
+            webUrl = "http://localhost:5173/";
         #endif
 
             WebView webView = new WebView
